@@ -7,6 +7,26 @@
   <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
   <link rel="canonical" href="https://science-markets.github.io/water-liquid-liquid-critical-point/">
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": {{ site.title | jsonify }},
+    "description": {{ site.description | jsonify }},
+    "url": "https://science-markets.github.io/water-liquid-liquid-critical-point/",
+    "mainEntityOfPage": "https://science-markets.github.io/water-liquid-liquid-critical-point/",
+    "citation": [
+      "https://doi.org/10.1126/science.aec0018",
+      "https://arxiv.org/abs/2609.26442",
+      "https://doi.org/10.1126/science.abb7542"
+    ],
+    "about": {
+      "@type": "Thing",
+      "name": "Liquid–liquid critical point in supercooled water"
+    },
+    "isAccessibleForFree": true
+  }
+  </script>
   <style>
     .markdown-body { max-width: 680px; margin: 0 auto; font-size: 17px; line-height: 1.65; }
     .markdown-body table { display: block; overflow-x: auto; font-size: 14px; }
