@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://science-markets.github.io/water-liquid-liquid-critical-point/sitemap.xml
