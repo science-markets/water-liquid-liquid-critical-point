@@ -88,8 +88,9 @@ Two things come out of it.
 First, fluence and temperature are not proportional. Fluence rises by a factor of **5.1** across
 the sweep. The temperature goes from about 175 K to about 210 K, which measured as a jump above
 the 135 K starting point is a factor of **1.9**. Four of the five points above 5 J/cm² sit within
-3.8 K of one another. Their fit curve moves about half a kelvin when fluence doubles from 9 to
-18 J/cm². Whatever else the sweep is, it is not a hidden rate scan.
+3.8 K of one another — the fifth, at 15.5 J/cm², is 4.6 K above the highest of them. Their fit
+curve moves about half a kelvin when fluence doubles from 9 to 18 J/cm². Whatever else the sweep
+is, it is not a hidden rate scan.
 
 Second, the sweep does not cross the rate interval the preprint argues about. Across the region
 where the heat capacity climbs — 5.13 to 15.53 J/cm², heat capacity from about 3.6 to 10 J/(g K) —
