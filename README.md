@@ -18,22 +18,20 @@ outrun crystallization. A diverging heat capacity is the signature of a critical
 preprint reproduces the same rise in simulation by treating the sample as a glass relaxing toward
 equilibrium, which also produces a sharp feature at a similar temperature.
 
-One of these has to give. A heating-rate scan is the experiment that decides it, and it has not
-been done at these temperatures.
+One of these has to give. The preprint's own argument for how to settle it is a change of heating
+rate, and the experiment that would do that cleanly has not been run.
 
 ## What the experiment did
 
 Supercooled water is hard to study because it freezes. You et al. sidestepped that by starting
-from low- and high-density amorphous ice and heating it with infrared laser pulses, then probing
+from high- and low-density amorphous ice and heating it with infrared laser pulses, then probing
 the result with x-ray scattering before ice could form.
 
 Sweeping the laser fluence moved the sample through a range of liquid states. Across that range
 they report three things: a crossover from discontinuous to continuous behaviour, broad and slow
 structural changes consistent with critical fluctuations, and a rapid heat-capacity increase
-peaking at 210 ± 8 K.
-
-That is a coherent story. The peak position, the fluctuation length scale and the slowing down
-all point the same way.
+peaking at 210 ± 8 K. The abstract's own verb is "suggest" — they write that the results suggest
+the experiments probed the vicinity of a critical point, not that they proved one.
 
 ## What the reinterpretation says
 
@@ -47,9 +45,11 @@ freedom unfreeze, the system absorbs energy at a rate set by the relaxation time
 phase boundary. The result is a peak in apparent heat capacity at roughly the observed
 temperature, with no critical point involved.
 
-They add a second, independent argument: their predicted glass-transition temperature sits close
-to where electron diffraction sees structural arrest in supercooled water. Two different
-observables pointing at the same temperature is suggestive, though not decisive.
+Two things in the paper make it more than a hand-wave. First, they fitted the TNM parameters at
+one heating rate and then predicted the heat-capacity trace at the other with no adjustable
+parameters; the prediction matched. Second, their predicted glass-transition temperature sits
+close to where electron diffraction sees structural arrest in supercooled water, from a
+different group and a different observable.
 
 ## The test that separates them
 
@@ -65,40 +65,49 @@ For a critical point, the peak does not move. The coexistence line sits where th
 puts it. Changing the rate changes how much of the transition you resolve and how sharp the
 feature looks, not where it is.
 
-So: one sample, five or six heating rates spanning a couple of decades, and watch whether the
-peak walks.
+This is the preprint's argument, not mine. They show the step shifting upward as they raise the
+heating rate from 4.16 to 13 K/ns, and they note that the experimental heating rate itself varies
+with laser power.
 
-- If it walks in step with the TNM prediction, the 2026 signal was a glass relaxing, and the
-  liquid–liquid critical point remains unobserved.
-- If it holds position while the amplitude grows, the Pabst–Hassanali account fails and the
-  critical point survives.
+Which is exactly why the existing experiment cannot settle it. In a fluence sweep, rate and
+temperature rise are coupled: turning up the laser moves both at once. Separating them needs the
+temperature jump held fixed while the pulse duration changes, so the peak either walks or does
+not. Nobody has published that. The preprint is explicit that this is a prediction its model
+makes and that the experiment to test it is future work.
 
-Neither group has published that scan. Ultrafast heating makes it harder than a calorimetry
-experiment, since each rate needs its own pulse shaping and its own probe timing, but the range
-of rates is not the obstacle. The obstacle is that nobody has run it.
+## The authors' own caveat, which cuts both ways
 
-## What independent work already constrains
+Pabst & Hassanali end by questioning whether heating experiments can ever answer this. Their
+words: it is "questionable whether such heating experiments can ever detect equilibrium two-state
+fluctuations underlying a possible liquid-liquid transition, or whether nonequilibrium dynamics
+such as those revealed here will inevitably mask them." They suggest ultrafast *cooling* as the
+more promising route, since the anomalous heat capacity has been seen that way.
 
-Not everything points the same way, which is why this is a live dispute rather than a settled
-one with a lagging minority report.
+Take that seriously. It is a reason the dispute may not be settled by any heating experiment, and
+it is the authors conceding a limit on their own framing as much as on the original one.
+
+## What independent work constrains
+
+Not everything points the same way, which is why this is a live dispute rather than a settled one
+with a lagging minority report.
 
 Kringle, Thornley, Kay and Kimmel (*Science*, 2020,
 [doi:10.1126/science.abb7542](https://doi.org/10.1126/science.abb7542)) obtained infrared spectra
-of supercooled water films between 135 and 235 K, formed for nanoseconds by ultrafast heating and
-cooling. Over that range they found the structure of water to be a **linear combination of a
-high-density and a low-density liquid**.
+of supercooled water films at temperatures from 135 to 245 K, formed for nanoseconds by ultrafast
+heating and cooling. Over that range the structure of water was a **linear combination of a
+high-density and a low-density liquid**. That is the main structural evidence that two liquid
+states exist.
 
-That cuts against the pure glass reading. A two-component description of the structure is what
-you expect if two liquid states coexist, and it is not what a single relaxing glass gives you.
-It also makes the Pabst–Hassanali result harder to dismiss in the other direction: they reproduce
-a heat-capacity peak with a one-relaxation-time model, but that model has to coexist with
-Kringle's two-component structural data.
+Now the honest complication, and the preprint states it plainly: in water, the glass transition
+is accompanied by a pronounced structural transformation at the same temperature. So a two-state
+structural description does not by itself distinguish "two coexisting liquids" from "a glass
+unfreezing into a liquid." Structure and mobility change together, and their shared temperature
+dependence cannot tell you which one is doing the work.
 
-So the ledger is genuinely split. An experiment sees a heat-capacity divergence. A simulation
-reproduces it without criticality. A separate experiment sees structural evidence for two liquid
-states. That is a disagreement worth watching, not a case where one side has already lost. The
-rate scan is still the cleanest way to break the tie, because it tests the mechanism directly
-rather than inferring it from structure or thermodynamics alone.
+So the ledger is split in a specific way. An experiment sees a heat-capacity divergence. A
+simulation reproduces it without criticality and fits the structure too. The structural data that
+looked like proof of two liquids does not separate the two pictures. What separates them is rate,
+which is why the rate scan keeps coming back.
 
 ## What this page is not
 
